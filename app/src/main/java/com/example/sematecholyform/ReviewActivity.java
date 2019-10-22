@@ -64,7 +64,7 @@ public class ReviewActivity extends AppCompatActivity {
                 String m = data.getStringExtra("m");
                 final EditText edtMail = findViewById(R.id.edtMail);
                 edtMail.setText(m);
-                String a = data.getStringExtra("m");
+                String a = data.getStringExtra("a");
                 final EditText edtAge = findViewById(R.id.edtAge);
                 edtAge.setText(a);
                 Toast.makeText(ReviewActivity.this,"Everything is done successfully!",Toast.LENGTH_SHORT).show();
